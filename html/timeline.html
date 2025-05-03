@@ -10,6 +10,31 @@
 </head>
 
 <body>
+    <nav class="black">
+        <a href="../index.html" class="logo menu-icon">Ian Anderson</a>
+        <ul class="hideOnMobile">
+            <li><a href="../html/gallery.html">Gallery</a></li>
+            <li><a href="../html/timeline.html">Timeline</a></li>
+            <li><a href="#">Credits</a></li>
+        </ul>
+
+        <li class="menu-button" onclick="showSideBar()"><a href="#"><svg class="menu-icon"
+                    xmlns="http://www.w3.org/2000/svg" height="24" fill="white" viewBox="0 -960 960 960" width="24">
+                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                </svg></a></li>
+        <ul class="sidebar">
+            <li onclick="hideSidebar()"><a class="no-underline" href="#"><svg class="menu-icon"
+                        xmlns="http://www.w3.org/2000/svg" height="24" fill="white" viewBox="0 -960 960 960" c
+                        width="24">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg></a></li>
+            <li><a href="../html/gallery.html">Gallery</a></li>
+            <li><a href="../html/timeline.html">Timeline</a></li>
+            <li><a href="#">Credits</a></li>
+        </ul>
+    </nav>
+
     <p class="front-text">scroll to see years, 'p' to pause/play rotation, 't' to see full timeline</p>
     <img src="../assets/backgrounds/pieces_rotate.png" alt="Rotating Background" class="rotate front-image">
     <div class="blur">
@@ -18,24 +43,29 @@
     <div class="timeline">
         <section class="scroll">
             <h1>1986</h1>
-            <p class="timeline-desc">Ian Anderson founds The Designers Republic (tDR) on Bastille day 1986 in Sheffield.</p>
+            <p class="timeline-desc">Ian Anderson founds The Designers Republic (tDR) on Bastille day 1986 in Sheffield.
+            </p>
         </section>
         <section class="scroll">
             <h1>1989</h1>
-            <p class="timeline-desc">tDR begins working with Warp Records, designing their logo and many iconic album covers over the next 20
+            <p class="timeline-desc">tDR begins working with Warp Records, designing their logo and many iconic album
+                covers over the next 20
                 years. </p>
         </section>
         <section class="scroll">
             <h1>1994</h1>
-            <p class="timeline-desc">Emigre's #29th issue about tDR is released. It remains Emigre's best-selling issue to date.</p>
+            <p class="timeline-desc">Emigre's #29th issue about tDR is released. It remains Emigre's best-selling issue
+                to date.</p>
         </section>
         <section class="scroll">
             <h1>1995</h1>
-            <p class="timeline-desc">tDR begins working with Psygnosis on its Wipeout game, shaping its iconic futuristic style.</p>
+            <p class="timeline-desc">tDR begins working with Psygnosis on its Wipeout game, shaping its iconic
+                futuristic style.</p>
         </section>
         <section class="scroll">
             <h1>1999</h1>
-            <p class="timeline-desc">tDR works with nightclub and EDM brand Gatecrasher, shaping the visual language of the UK clubbing scene.</p>
+            <p class="timeline-desc">tDR works with nightclub and EDM brand Gatecrasher, shaping the visual language of
+                the UK clubbing scene.</p>
         </section>
         <section class="scroll">
             <h1>2006</h1>
@@ -43,11 +73,13 @@
         </section>
         <section class="scroll">
             <h1>2009</h1>
-            <p class="timeline-desc">tDR undergoes voluntary liquidation, Ian Anderson buys back the name and downsizes the studio.</p>
+            <p class="timeline-desc">tDR undergoes voluntary liquidation, Ian Anderson buys back the name and downsizes
+                the studio.</p>
         </section>
         <section class="scroll">
             <h1>2019</h1>
-            <p class="timeline-desc">Ian Anderson releases the “A to Z of The Designers Republic” book, chronicling the studio’s body of work.</p>
+            <p class="timeline-desc">Ian Anderson releases the “A to Z of The Designers Republic” book, chronicling the
+                studio’s body of work.</p>
         </section>
     </div>
     <script src="../js/timeline-script.js"></script>
