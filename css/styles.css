@@ -165,11 +165,6 @@ p{
 }
 
 
-/* WHITE--------------------------------------------------------- */
-.white {
-    color:rgb(255, 255, 255);
-}
-
 /* NAV------------------------------------------------------------------- */
 nav {
   position: fixed;
@@ -181,7 +176,23 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1rem;
+  padding: 1rem 1rem;
+}
+
+nav .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  transition: color 0.3s ease;
+  letter-spacing: -2px;
+}
+
+nav .logo.white{
+    color: #fff;
+}
+nav .logo:hover,
+nav ul li a:hover {
+  color:#757d87;
 }
 nav ul {
   list-style: none;
@@ -268,6 +279,11 @@ nav ul li {
     pointer-events: none;
 }
 
+
+/* WHITE--------------------------------------------------------- */
+.white {
+    color:rgb(255, 255, 255);
+}
 
 /* ANIMATION------------------------------------------------------------------ */
 .rotate {

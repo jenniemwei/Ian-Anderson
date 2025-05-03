@@ -24,7 +24,10 @@ body{
     bottom:0px;
     left:0;
     padding: 1rem;
-    font-size: .9rem;
+}
+.right{
+    right:0;
+    left: auto;
 }
 
 h1{
