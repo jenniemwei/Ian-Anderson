@@ -129,9 +129,21 @@ table {
 
 /*---- CUSTOM CSS HERE -------------------------------------------------------*/
 @font-face {
-    font-family: 'Neue Montreal Bold'; 
-    src: url('/Ian-Anderson/fonts/NeueMontreal-Bold.otf') format('opentype');
-    font-weight: bold;
+    font-family: 'Helvetica Neue'; 
+    src: url('../fonts/HelveticaNeueBlack.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Helvetica Neue'; 
+    src: url('../fonts/HelveticaNeueBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NeueMontreal'; 
+    src: url('../fonts/NeueMontreal-Bold.otf') format('opentype');
+    font-weight: 600;
     font-style: normal;
 }
 
@@ -164,6 +176,14 @@ p{
   color: #333;
 }
 
+h1 {
+    font-family: "NeueMontreal";
+    font-size: 6rem;
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: -.12em;
+    -webkit-text-stroke: .25px black;
+  }
 
 /* NAV------------------------------------------------------------------- */
 nav {
