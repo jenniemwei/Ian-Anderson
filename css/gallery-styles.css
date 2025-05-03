@@ -77,6 +77,7 @@ body {
 .item-caption {
   display: none;
   padding: 1rem;
+  text-align: center;
 }
 .gallery-item:hover img,
 .gallery-item.selected img {
