@@ -1,114 +1,118 @@
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
-body{
-    background-image: url('../assets/backgrounds/background2.1.webp');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+body {
+  background-image: url("../assets/backgrounds/background2.1.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.blur{
-    /* global 92%+ browsers support */
-    top: 0;
-    width:100vw;
-    height:100vh;
-    position:absolute;
-    z-index:10;
-    pointer-events: none;
-    background: radial-gradient(circle at 50% 50%, rgba(255, 255, 0, 0) 40%, rgba(255, 255, 255, .5) 70%, rgba(255, 255, 255, 1) 78%, rgba(255, 255, 255, .9) 100%);
-}
-
-.front-text{
-    z-index: 100;
-    position: absolute;
-    bottom:0px;
-    left:0;
-    padding: 1rem;
-}
-.right{
-    right:0;
-    left: auto;
+.blur {
+  /* global 92%+ browsers support */
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 10;
+  pointer-events: none;
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgba(255, 255, 0, 0) 40%,
+    rgba(255, 255, 255, 0.5) 70%,
+    rgba(255, 255, 255, 1) 78%,
+    rgba(255, 255, 255, 0.9) 100%
+  );
 }
 
-h1{
-    font-family: 'Neue Montreal Bold';
-    font-size: 6rem;
-    font-weight: 800;
-    color: #ffffff;
-    letter-spacing: -.12em;
-    -webkit-text-stroke: 1px black;
+.front-text {
+  z-index: 100;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  padding: 1rem;
+}
+.right {
+  right: 0;
+  left: auto;
 }
 
-.timeline{
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width:100vw;
-    display:flex;
-    align-items: space-between;
-    flex-wrap:nowrap;
-    overflow-x:auto;
-    overflow-y: hidden;
-    padding: 0 25vw;
-    -webkit-overflow-scrolling: touch;
+h1 {
+  font-family: "Helvetica Neue";
+  font-size: 6rem;
+  font-weight: 800;
+  color: #ffffff;
+  font-style: normal;
+  letter-spacing: -0.12em;
+  -webkit-text-stroke: 1px black;
 }
 
-.timeline.small{
-    padding:0 1em;
-    height:auto;
-
-    transform-origin: center;
+.timeline {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+  display: flex;
+  align-items: space-between;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0 25vw;
+  -webkit-overflow-scrolling: touch;
 }
 
-section{
-    min-height: auto;
-    display:flex;
-    flex-direction:row;
-    justify-content: center;
-    align-items: flex;
-    padding:auto;
+.timeline.small {
+  padding: 0 1em;
+  height: auto;
 
+  transform-origin: center;
 }
 
-.small-time{
-    font-size:2em;
-    color:black;
-    letter-spacing: -.08em;
-    padding: 0 16px;
-}
-.timeline-desc{
-    max-width:20vw;
-    padding:1em;
-
+section {
+  min-height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex;
+  padding: auto;
 }
 
-
-section.no-scroll{
-    overflow: hidden;
-    flex: 1;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+.small-time {
+  font-size: 2em;
+  color: black;
+  letter-spacing: -0.08em;
+  padding: 0 16px;
 }
-section.scroll{
-    flex:0 0 auto;
-    width: 50vw;
+.timeline-desc {
+  max-width: 20vw;
+  padding: 1em;
+}
+
+section.no-scroll {
+  overflow: hidden;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+section.scroll {
+  flex: 0 0 auto;
+  width: 50vw;
 }
 /* .timeline::-webkit-scrollbar{
     display: none;
     
 } */
 .timeline::-webkit-scrollbar {
-    height: 8px;
+  height: 8px;
 }
 
 .timeline::-webkit-scrollbar-thumb {
-    background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 8px;
-    border: #000000 1px solid;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 8px;
+  border: #000000 1px solid;
 }
 
 .timeline::-webkit-scrollbar-track {
-    background: rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.25);
 }

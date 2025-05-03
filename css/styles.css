@@ -130,7 +130,7 @@ table {
 /*---- CUSTOM CSS HERE -------------------------------------------------------*/
 @font-face {
     font-family: 'Neue Montreal Bold'; 
-    src: url('/Ian-Anderson/fonts/neue-montreal-bold.otf') format('opentype');
+    src: url('/Ian-Anderson/fonts/NeueMontreal-Bold.otf') format('opentype');
     font-weight: bold;
     font-style: normal;
 }
