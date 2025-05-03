@@ -1,153 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/gallery-styles.css" />
     <link rel="stylesheet" href="../css/styles.css" />
     <title>Document</title>
-  </head>
+</head>
 
-  <body>
-    <img
-      src="../assets/backgrounds/background_rotate.webp"
-      alt="Rotating Background"
-      class="rotate background-image"
-    />
-    <nav class="black">
-      <a href="../index.html" class="logo menu-icon">Ian Anderson</a>
-      <ul class="hideOnMobile">
-        <li class="dropdown">
-          <a href="gallery.html">Gallery</a>
-          <ul class="dropdown-content">
-            <li>Gatecrasher</li>
-            <li>Wipeout</li>
-          </ul>
-        </li>
-        <li><a href="timeline.html">Timeline</a></li>
-        <li><a href="#">Credits</a></li>
-      </ul>
+<body>
+    <img src="../assets/backgrounds/background_rotate.webp" alt="Rotating Background" class="rotate background-image" />
+    <nav>
+        <a href="../index.html" class="logo menu-icon">Ian Anderson</a>
+        <ul class="hideOnMobile">
+            <li class="dropdown">
+                <a href="gallery.html">Gallery</a>
+                <ul class="dropdown-content">
+                    <li><a href="../html/gallery/gatecrasher.html">Gatecrasher</a></li>
+                    <li><a href="../html/gallery/wipeout.html">Wipeout</a></li>
+                </ul>
+            </li>
+            <li><a href="timeline.html">Timeline</a></li>
+            <li><a href="#">Credits</a></li>
+        </ul>
 
-      <li class="menu-button" onclick="showSideBar()">
-        <a href="#"
-          ><svg
-            class="menu-icon"
-            xmlns="http://www.w3.org/2000/svg"
-            height="24"
-            fill="white"
-            viewBox="0 -960 960 960"
-            width="24"
-          >
-            <path
-              d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
-            /></svg
-        ></a>
-      </li>
-      <ul class="sidebar">
-        <li onclick="hideSidebar()">
-          <a class="no-underline" href="#"
-            ><svg
-              class="menu-icon"
-              xmlns="http://www.w3.org/2000/svg"
-              height="24"
-              fill="white"
-              viewBox="0 -960 960 960"
-              c
-              width="24"
-            >
-              <path
-                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
-              /></svg
-          ></a>
+        <li class="menu-button" onclick="showSideBar()">
+            <a href="#"><svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" height="24" fill="black"
+                    viewBox="0 -960 960 960" width="24">
+                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                </svg></a>
         </li>
-        <li class="dropdown">
-          <a href="gallery.html">Gallery</a>
-          <ul class="dropdown-content">
-            <li>Gatecrasher</li>
-            <li>Wipeout</li>
-          </ul>
-        </li>
-        <li><a href="timeline.html">Timeline</a></li>
-        <li><a href="#">Credits</a></li>
-      </ul>
+        <ul class="sidebar">
+            <li onclick="hideSidebar()">
+                <a class="no-underline" href="#"><svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" height="24"
+                        fill="black" viewBox="0 -960 960 960" c width="24">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg></a>
+            </li>
+            <li class="dropdown">
+                <a href="gallery.html">Gallery</a>
+                <ul class="dropdown-content">
+                    <li><a href="../html/gallery/gatecrasher.html">Gatecrasher</a></li>
+                    <li><a href="../html/gallery/wipeout.html">Wipeout</a></li>
+                </ul>
+            </li>
+            <li><a href="timeline.html">Timeline</a></li>
+            <li><a href="#">Credits</a></li>
+        </ul>
     </nav>
     <p class="front-text">Hover image to expand</p>
     <div class="container">
-      <div class="indicator"></div>
-      <div class="gallery">
-        <div class="gallery-item">
-          <img src="../assets/gallery_img/gatecrasher.jpg" alt="Image 1" />
-          <div class="item-caption">
-            <p><strong>Gatecrasher Ibiza,</strong> <i>2014</i></p>
-          </div>
-        </div>
-        <div class="gallery-item">
-          <img src="../assets/gallery_img/wipeout.jpg" alt="Image 1" />
-          <div class="item-caption">
-            <p><strong>Wipeout,</strong> <i>1995</i></p>
-          </div>
-        </div>
-        <div class="gallery-item">
-          <img src="../assets/gallery_img/ageofchance.jpg" alt="Image 1" />
-          <div class="item-caption">
-            <p>
-              <strong>Age of Chance <i>Kiss</i>,</strong> <i>1987</i>
-            </p>
-          </div>
-        </div>
+        <div class="indicator"></div>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="../assets/gallery_img/gatecrasher.jpg" alt="Image 1" />
+                <div class="item-caption">
+                    <p><strong>Gatecrasher Ibiza,</strong> <i>2014</i></p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="../assets/gallery_img/wipeout.jpg" alt="Image 1" />
+                <div class="item-caption">
+                    <p><strong>Wipeout,</strong> <i>1995</i></p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="../assets/gallery_img/ageofchance.jpg" alt="Image 1" />
+                <div class="item-caption">
+                    <p>
+                        <strong>Age of Chance <i>Kiss</i>,</strong> <i>1987</i>
+                    </p>
+                </div>
+            </div>
 
-        <div class="gallery-item">
-          <img src="../assets/gallery_img/TDR_New_school.png" alt="Image 1" />
-          <div class="item-caption">
-            <p><strong>Manchester School of Art,</strong> <i>2014</i></p>
-          </div>
+            <div class="gallery-item">
+                <img src="../assets/gallery_img/TDR_New_school.png" alt="Image 1" />
+                <div class="item-caption">
+                    <p><strong>Manchester School of Art,</strong> <i>2014</i></p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="../assets/gallery_img/coke.png" alt="Image 1" />
+                <div class="item-caption">
+                    <p>
+                        <strong>Coca Cola <i>Love Being</i>,</strong> <i>2006</i>
+                    </p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="../assets/gallery_img/buyme.jpg" alt="Image 1" />
+                <div class="item-caption">
+                    <p><strong>Buy Me,</strong> <i>2005</i></p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="../assets/gallery_img/formulafusion.jpg" alt="Image 1" />
+                <div class="item-caption">
+                    <p><strong>Formula Fusion,</strong> <i>2015</i></p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="../assets/gallery_img/phoku.jpeg" alt="Image 1" />
+                <div class="item-caption">
+                    <p><strong>Target Market,</strong> <i>"Whenever"</i></p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="../assets/gallery_img/idea_mag.png" alt="Image 1" />
+                <div class="item-caption">
+                    <p><strong>Idea Magazine,</strong> <i>2000</i></p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="../assets/gallery_img/wipeout1.jpg" alt="Image 1" />
+                <div class="item-caption">
+                    <p><strong>Wipeout 2097,</strong> <i>1996</i></p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="../assets/gallery_img/jazz.jpg" alt="Image 1" />
+                <div class="item-caption">
+                    <p><strong>Jazz em Agosto,</strong> <i>2013</i></p>
+                </div>
+            </div>
         </div>
-        <div class="gallery-item">
-          <img src="../assets/gallery_img/coke.png" alt="Image 1" />
-          <div class="item-caption">
-            <p>
-              <strong>Coca Cola <i>Love Being</i>,</strong> <i>2006</i>
-            </p>
-          </div>
-        </div>
-        <div class="gallery-item">
-          <img src="../assets/gallery_img/buyme.jpg" alt="Image 1" />
-          <div class="item-caption">
-            <p><strong>Buy Me,</strong> <i>2005</i></p>
-          </div>
-        </div>
-        <div class="gallery-item">
-          <img src="../assets/gallery_img/formulafusion.jpg" alt="Image 1" />
-          <div class="item-caption">
-            <p><strong>Formula Fusion,</strong> <i>2015</i></p>
-          </div>
-        </div>
-        <div class="gallery-item">
-          <img src="../assets/gallery_img/phoku.jpeg" alt="Image 1" />
-          <div class="item-caption">
-            <p><strong>Target Market,</strong> <i>"Whenever"</i></p>
-          </div>
-        </div>
-        <div class="gallery-item">
-          <img src="../assets/gallery_img/idea_mag.png" alt="Image 1" />
-          <div class="item-caption">
-            <p><strong>Idea Magazine,</strong> <i>2000</i></p>
-          </div>
-        </div>
-        <div class="gallery-item">
-          <img src="../assets/gallery_img/wipeout1.jpg" alt="Image 1" />
-          <div class="item-caption">
-            <p><strong>Wipeout 2097,</strong> <i>1996</i></p>
-          </div>
-        </div>
-        <div class="gallery-item">
-          <img src="../assets/gallery_img/jazz.jpg" alt="Image 1" />
-          <div class="item-caption">
-            <p><strong>Jazz em Agosto,</strong> <i>2013</i></p>
-          </div>
-        </div>
-      </div>
     </div>
     <script src="../js/script.js"></script>
-  </body>
+</body>
+
 </html>
