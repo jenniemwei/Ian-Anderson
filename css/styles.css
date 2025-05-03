@@ -184,6 +184,13 @@ h1 {
     letter-spacing: -.12em;
     -webkit-text-stroke: .25px black;
   }
+  .front-text {
+    z-index: 100;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    padding: 1rem;
+  }
 
 /* NAV------------------------------------------------------------------- */
 nav {

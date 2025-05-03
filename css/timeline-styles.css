@@ -24,17 +24,6 @@ body {
   );
 }
 
-.front-text {
-  z-index: 100;
-  position: absolute;
-  bottom: 0px;
-  left: 0;
-  padding: 1rem;
-}
-.right {
-  right: 0;
-  left: auto;
-}
 
 
 .timeline {
