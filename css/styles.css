@@ -263,6 +263,49 @@ nav ul li {
     display: none;
   }
 
+  /* General Dropdown Style */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none; /* Hidden by default */
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.dropdown-content li a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content li a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block; /* Show dropdown on hover */
+}
+
+/* Adjust Sidebar Dropdown Style */
+.sidebar .dropdown-content {
+    position: relative; /* Keep relative for sidebar alignment */
+    box-shadow: none; /* Optional: remove shadow for sidebar */
+}
+
+.sidebar .dropdown:hover .dropdown-content {
+    display: block;
+}
+
 /* ---- HERO ---------------------------------------------------------------- */
 .hero {
   position: relative;
