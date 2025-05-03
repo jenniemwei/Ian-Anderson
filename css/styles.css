@@ -367,3 +367,17 @@ nav ul li {
       transform: translate(-50%, -50%) rotate(359deg);
     }
   }
+
+  @media (max-width: 768px) {
+    .menu-button {
+        display: block;
+    }
+
+    nav ul.hideOnMobile {
+        display: none;
+    }
+
+    .sidebar {
+        display: flex;
+    }
+}
