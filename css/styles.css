@@ -293,8 +293,8 @@ nav ul li {
     transform: translate(-50%, -50%); /* Centers the image perfectly */
     width: auto; /* Adjust width dynamically */
     height: auto; /* Adjust height dynamically */
-    max-width: 180%; /* Ensures it doesn't exceed the screen width */
-    max-height:180%;
+    max-width: 150%; /* Ensures it doesn't exceed the screen width */
+    max-height:150%;
     z-index: 20; 
     pointer-events: none;
 }

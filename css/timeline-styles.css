@@ -18,8 +18,8 @@ body {
   background: radial-gradient(
     circle at 50% 50%,
     rgba(255, 255, 0, 0) 40%,
-    rgba(255, 255, 255, 0.5) 70%,
-    rgba(255, 255, 255, 1) 78%,
+    rgba(255, 255, 255, 0.5) 60%,
+    rgba(255, 255, 255, 1) 70%,
     rgba(255, 255, 255, 0.9) 100%
   );
 }
@@ -60,11 +60,11 @@ body {
 }
 
 section {
-  min-height: auto;
+  min-height: 20vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: flex;
+  align-items: center;
   padding: auto;
 }
 
@@ -80,6 +80,7 @@ section {
 }
 
 section.no-scroll {
+min-height: auto;
   overflow: hidden;
   flex: 1;
   flex-direction: column;
@@ -95,6 +96,7 @@ section.scroll {
     
 } */
 .timeline::-webkit-scrollbar {
+    width: 50%;
   height: 8px;
   z-index: 1000;
 }
@@ -107,4 +109,6 @@ section.scroll {
 
 .timeline::-webkit-scrollbar-track {
   background: rgba(255, 255, 255, 0.25);
+  margin: 30vw;
+  
 }
