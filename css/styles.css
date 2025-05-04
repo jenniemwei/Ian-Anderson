@@ -186,6 +186,12 @@ h1 {
     letter-spacing: -.12em;
     -webkit-text-stroke: .25px black;
   }
+
+.title{
+  margin-top:2em;
+  text-align: center;
+  letter-spacing: -.1em;
+}
   .front-text {
     z-index: 100;
     position: absolute;
@@ -355,8 +361,9 @@ nav ul li {
     z-index: 20; 
     pointer-events: none;
 }
-
-.container{
+/* 
+SOURCES & GALLERY SUBPAGES------------------------------------------------- */
+.credits-container{
     position: relative;
     margin: auto;
     width: 80vw;
@@ -382,6 +389,31 @@ nav ul li {
 
 .source:hover{
   background:  rgb(255, 255, 255,0.5);
+}
+
+.sub-gallery{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1em; 
+  min-width: 90vw;
+}
+
+.sub-gallery-item {
+  width:30%;
+  margin-bottom: 1em; 
+}
+
+.sub-gallery-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.sub-gallery-item img:hover {
+  transform: scale(1.05);
 }
 
 /* WHITE--------------------------------------------------------- */
