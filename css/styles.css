@@ -416,6 +416,21 @@ SOURCES & GALLERY SUBPAGES------------------------------------------------- */
   transform: scale(1.05);
 }
 
+/* VIDEO---------------------------------------------------- */ 
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.video-container iframe {
+  width: 60%; /* Adjust width as needed */
+  aspect-ratio: 16 / 9; 
+  height: auto; /* Automatically adjusts height */
+  position: relative; /* No need for absolute positioning */
+}
+
 /* WHITE--------------------------------------------------------- */
 .white {
     color:rgb(255, 255, 255);
