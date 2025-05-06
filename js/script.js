@@ -1,11 +1,3 @@
-// nav bar
-//window represents browser that holds the DOM
-window.addEventListener("scroll", function () {
-    var header = document.querySelector("header");
-    header.classList.toggle("sticky", window.scrollY > 0);
-    // toggle chekcs visibility and will add or remove "sticky" from header classList//
-  });
-  
   //show + hide sidebar
   function showSideBar() {
     const sidebar = document.querySelector(".sidebar");

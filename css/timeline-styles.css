@@ -39,13 +39,6 @@ body {
   -webkit-overflow-scrolling: touch;
 }
 
-.timeline.small {
-  padding: 0 1em;
-  height: auto;
-
-  transform-origin: center;
-}
-
 section {
   min-height: 20vh;
   display: flex;
@@ -55,15 +48,18 @@ section {
   padding: auto;
 }
 
+.timeline.small {
+  padding: 0 1em;
+  height: auto;
+
+  transform-origin: center;
+}
+
 .small-time {
   font-size: 2em;
   color: black;
   letter-spacing: -0.08em;
   padding: 0 16px;
-}
-.timeline-desc {
-  max-width: 20vw;
-  padding: 1em;
 }
 
 section.no-scroll {
@@ -79,6 +75,11 @@ section.scroll {
   width: 50vw;
 }
 
+.timeline-desc {
+    max-width: 20vw;
+    padding: 1em;
+  }
+  
 .timeline::-webkit-scrollbar {
   width: 50%;
   height: 8px;
