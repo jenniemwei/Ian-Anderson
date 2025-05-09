@@ -473,6 +473,9 @@ SOURCES & GALLERY SUBPAGES------------------------------------------------- */
         display: flex;
         background-color: #fff;
     }
+    .sidebar.black-bg{
+        background-color: #000;
+    }g
 .dropdown {
   position: relative;
   display: inline-block;
